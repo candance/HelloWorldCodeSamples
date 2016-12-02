@@ -7,21 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D191C701DF1C706009C800C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C6F1DF1C706009C800C /* AppDelegate.swift */; };
-		0D191C721DF1C706009C800C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C711DF1C706009C800C /* ViewController.swift */; };
-		0D191C751DF1C706009C800C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D191C731DF1C706009C800C /* Main.storyboard */; };
-		0D191C771DF1C706009C800C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D191C761DF1C706009C800C /* Assets.xcassets */; };
-		0D191C7A1DF1C706009C800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D191C781DF1C706009C800C /* LaunchScreen.storyboard */; };
+		0D191C851DF1C718009C800C /* AddNewJournalEntryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C811DF1C718009C800C /* AddNewJournalEntryTVC.swift */; };
+		0D191C861DF1C718009C800C /* DateFormatter+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C821DF1C718009C800C /* DateFormatter+Singleton.swift */; };
+		0D191C871DF1C718009C800C /* JournalHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C831DF1C718009C800C /* JournalHomeVC.swift */; };
+		0D191C881DF1C718009C800C /* WorldWishListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D191C841DF1C718009C800C /* WorldWishListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D191C6C1DF1C706009C800C /* HelloWorldCodeSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldCodeSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D191C6F1DF1C706009C800C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D191C711DF1C706009C800C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D191C741DF1C706009C800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D191C761DF1C706009C800C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D191C791DF1C706009C800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0D191C7B1DF1C706009C800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D191C811DF1C718009C800C /* AddNewJournalEntryTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewJournalEntryTVC.swift; sourceTree = "<group>"; };
+		0D191C821DF1C718009C800C /* DateFormatter+Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Singleton.swift"; sourceTree = "<group>"; };
+		0D191C831DF1C718009C800C /* JournalHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalHomeVC.swift; sourceTree = "<group>"; };
+		0D191C841DF1C718009C800C /* WorldWishListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldWishListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +51,10 @@
 		0D191C6E1DF1C706009C800C /* HelloWorldCodeSamples */ = {
 			isa = PBXGroup;
 			children = (
-				0D191C6F1DF1C706009C800C /* AppDelegate.swift */,
-				0D191C711DF1C706009C800C /* ViewController.swift */,
-				0D191C731DF1C706009C800C /* Main.storyboard */,
-				0D191C761DF1C706009C800C /* Assets.xcassets */,
-				0D191C781DF1C706009C800C /* LaunchScreen.storyboard */,
-				0D191C7B1DF1C706009C800C /* Info.plist */,
+				0D191C811DF1C718009C800C /* AddNewJournalEntryTVC.swift */,
+				0D191C821DF1C718009C800C /* DateFormatter+Singleton.swift */,
+				0D191C831DF1C718009C800C /* JournalHomeVC.swift */,
+				0D191C841DF1C718009C800C /* WorldWishListVC.swift */,
 			);
 			path = HelloWorldCodeSamples;
 			sourceTree = "<group>";
@@ -124,9 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D191C7A1DF1C706009C800C /* LaunchScreen.storyboard in Resources */,
-				0D191C771DF1C706009C800C /* Assets.xcassets in Resources */,
-				0D191C751DF1C706009C800C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +129,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D191C721DF1C706009C800C /* ViewController.swift in Sources */,
-				0D191C701DF1C706009C800C /* AppDelegate.swift in Sources */,
+				0D191C861DF1C718009C800C /* DateFormatter+Singleton.swift in Sources */,
+				0D191C851DF1C718009C800C /* AddNewJournalEntryTVC.swift in Sources */,
+				0D191C881DF1C718009C800C /* WorldWishListVC.swift in Sources */,
+				0D191C871DF1C718009C800C /* JournalHomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0D191C731DF1C706009C800C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D191C741DF1C706009C800C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0D191C781DF1C706009C800C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D191C791DF1C706009C800C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D191C7C1DF1C706009C800C /* Debug */ = {
